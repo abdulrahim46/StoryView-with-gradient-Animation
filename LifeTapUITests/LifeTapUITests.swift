@@ -21,6 +21,23 @@ class LifeTapUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    
+//    func testButtonTap() {
+//        // UI tests must launch the application that they test.
+//        let app = XCUIApplication()
+//        app.launchArguments = ["enable-testing"]
+//        app.launch()
+//        
+//        #if DEBUG
+//        if CommandLine.arguments.contains("enable-testing") {
+//           // configureTestingState()
+//        }
+//        #endif
+//        
+//        //app.buttons["profile-1"].tap()
+//    }
+    
 
     func testExample() throws {
         // UI tests must launch the application that they test.
