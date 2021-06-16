@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var lineView: UIView!
     var collectionView: UICollectionView?
     let models = ["profile-1","profile-2","profile-3","profile-4","space"]
     
